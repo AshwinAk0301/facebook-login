@@ -1,0 +1,96 @@
+.App {
+    text-align: center;
+  }
+  
+  body
+  {
+      color:black;
+      background-image: "../Image2";
+  }
+  *
+  {
+     margin: 0;
+     padding: 0;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  } 
+  
+   
+  #left-nav
+  {
+      margin-top:20px;
+      display:inline-flex;
+      align-items:   baseline;
+      width: 50%;
+      border :6px solid rgb(88, 85, 85);
+      margin: 10px 10% 10px 10px;
+      inset-block: inherit;  
+       
+      justify-content: center;
+  }
+  .container
+  {
+      width:1200px;
+      margin-inline: auto;
+    
+  }
+  img
+  {
+      border-radius: 50%;
+  }
+  a 
+  {
+      
+      text-decoration: none;
+      font-size: 20px;
+      margin-left:10px;
+      text-transform: uppercase;
+      text-decoration:none;
+      color:black;
+       
+  
+  }
+  a:hover
+  {
+       
+      transition: 0.4s;
+  }
+  #hero 
+  {
+      display: flex;
+      margin-inline-end: auto;
+      margin: auto;
+      margin-top: 10%;
+
+      color:rgb(24, 77, 175);
+      align-items: center;
+      justify-content: space-between;
+  }
+  #hero-right 
+  {
+      text-align: right;
+      width:500px;
+  }
+  #hero-right h4
+  {
+      color:rgb(16, 55, 128);
+  }
+  #hero-right h1
+  {
+      color:#0f664a;
+  }
+  
+  nav ul
+        {
+          background-color: aquamarine  ;
+          padding: 0 50px;
+          height: 50px;
+          margin: 50px;
+        }
+  
+   nav li
+        {
+          line-height: 50px;
+          display: inline-block;
+          height: 50px;
+          padding:0 30px;
+        }

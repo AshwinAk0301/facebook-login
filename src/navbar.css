@@ -1,0 +1,11 @@
+.nav 
+{
+    background-color: rgb(48, 66, 168);
+    color:white;
+}
+.user , .btn  
+{
+  margin: 10px;
+  border-radius: 2px;
+}
+
